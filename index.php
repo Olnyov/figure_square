@@ -16,8 +16,8 @@ use App\Figure\FunctionPowX2;
 $message = '';
 
 try {
-    $x1 = !empty($_GET["x1"]) ? (float) $_GET["x1"] : DEFAULT_X1;
-    $x2 = !empty($_GET["x2"]) ? (float) $_GET["x2"] : DEFAULT_X2;
+    $x1 = isset($_GET["x1"]) ? (float) $_GET["x1"] : DEFAULT_X1;
+    $x2 = isset($_GET["x2"]) ? (float) $_GET["x2"] : DEFAULT_X2;
 
     // Since PHP 7.4
     foreach ([$x1, $x2] as $x){

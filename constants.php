@@ -1,6 +1,6 @@
 <?php
 define("DEFAULT_X1", 5);
 define("DEFAULT_X2", 25);
-define("VALIDATION_MIN_RANGE", 0);
+define("VALIDATION_MIN_RANGE", -10000);
 define("VALIDATION_MAX_RANGE", 10000);
 define("SQUARE_ROUND_PRECISION", 4);
